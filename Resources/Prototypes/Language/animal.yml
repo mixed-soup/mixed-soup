@@ -1,0 +1,217 @@
+# Languages spoken by various critters.
+- type: language
+  id: Cat
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 2
+    replacement:
+    - мурр
+    - мяу
+    - пурр
+    - мррмяу
+
+- type: language
+  id: Dog
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 2
+    replacement:
+    - вуф
+    - гаф
+    - рруф
+    - рраф
+    - ррар
+    - гррар
+
+- type: language
+  id: Fox
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 2
+    replacement:
+    - руфф
+    - рафф
+    - фрь
+    - гарр
+    - йип
+    - йап
+    - мьяах
+
+- type: language
+  id: Xeno
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 8 # I was crazy once
+    replacement:
+    - С
+    - Р
+
+- type: language
+  id: Monkey
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 8 # They locked me in a room...
+    replacement:
+    - у
+    - а
+
+- type: language
+  id: Mouse
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 2
+    maxSyllables: 3
+    replacement:
+    - ску
+    - иик
+    - пи
+    - еп
+    - чуу
+    - ии
+    - фии
+    - хи
+
+- type: language
+  id: Chicken
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - ку
+    - кудах
+    - тах
+
+- type: language
+  id: Duck
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - кр
+    - як
+    - кряк
+
+- type: language
+  id: Cow
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - му
+    - мууу
+
+- type: language
+  id: Sheep
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - беее
+    - бее
+    - ее
+
+- type: language
+  id: Kangaroo
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - шре
+    - ак
+    - чууу
+    - чооо
+
+- type: language
+  id: Pig
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - хрю # Please someone come up with something better
+    - Йонкь
+
+- type: language
+  id: Crab
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - клик
+    - клак
+    - ти
+    - пи
+    - тык
+    - кл
+    - ик
+
+- type: language
+  id: Kobold
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 2
+    maxSyllables: 4
+    replacement:
+    - йифф
+    - ски
+    - гар
+    - грр
+    - ар
+    - скрик
+    - эт
+    - горнк
+    - хисс
+    - сс
+    - ии
+
+- type: language
+  id: Hissing
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 2
+    maxSyllables: 4
+    replacement:
+    - хсс
+    - хисс
+    - сс
+    - исс
+
+- type: language
+  id: Penguin
+  isVisibleLanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 2
+    maxSyllables: 3
+    replacement: # I'm out of ideas
+    - пен
+    - пенг
+    - вон
+    - вонк
+    - вонг

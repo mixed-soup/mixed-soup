@@ -1,0 +1,12 @@
+ent-PrisonerIDCard = ID карта Заключённого
+    .desc = { ent-IDCardStandard.desc }
+ent-GladiatorIDCard = ID карта Гладиатора
+    .desc = { ent-IDCardStandard.desc }
+ent-PrisonGuardIDCard = ID карта Охранника Тюрьмы
+    .desc = { ent-IDCardStandard.desc }
+ent-MailCarrierIDCard = ID карта Курьера
+    .desc = { ent-IDCardStandard.desc }
+ent-MartialArtistIDCard = ID карта Мастера Боевых Искусств
+    .desc = { ent-IDCardStandard.desc }
+ent-ForensicMantisIDCard = ID карта Мантиса
+    .desc = { ent-IDCardStandard.desc }

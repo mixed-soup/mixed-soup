@@ -1,0 +1,23 @@
+<Document>
+  # Расы
+
+  Нанотрайзен нанимает разнообразные разумные виды.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobArachnid" Caption="Арахнид"/>
+  <GuideEntityEmbed Entity="MobDiona" Caption="Диона"/>
+  <GuideEntityEmbed Entity="MobHuman" Caption="Человек"/>
+  <GuideEntityEmbed Entity="MobMoth" Caption="Ниан"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobReptilian" Caption="Унатх"/>
+  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Вульпканин"/>
+  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
+  <GuideEntityEmbed Entity="MobIPCDummy" Caption="К.П.Б."/>
+  </Box>
+
+  <Box>
+  <GuideEntityEmbed Entity="LPPMobShark" Caption="Акулид"/>
+  <GuideEntityEmbed Entity="LPPMobTajaran" Caption="Таяран"/>
+  </Box>
+</Document>

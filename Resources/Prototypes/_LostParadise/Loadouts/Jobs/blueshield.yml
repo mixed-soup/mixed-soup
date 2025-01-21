@@ -1,0 +1,98 @@
+- type: loadout
+  id: LoadoutCommandBSKatanaSheath
+  category: JobsCommandAUncategorized
+  cost: 0
+  exclusive: true
+  requirements: 
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - ClothingBeltKatanaSheathFilledHoS
+
+- type: loadout
+  id: LoadoutCommandBSMedkitCombat
+  category: JobsCommandAUncategorized
+  cost: 2
+  exclusive: true
+  requirements: 
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - MedkitCombatFilled
+
+- type: loadout
+  id: LoadoutCommandBSCombatHypospray
+  category: JobsCommandAUncategorized
+  cost: 4
+  exclusive: true
+  requirements: 
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - LPPCombatHypospray
+
+- type: loadout
+  id: LoadoutCommandBSWeaponPistolN1984
+  category: JobsCommandAUncategorized
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponBS
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - WeaponPistolN1984
+
+- type: loadout
+  id: LoadoutCommandBSWeaponPistolUniversal
+  category: JobsCommandAUncategorized
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponBS
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - WeaponPistolUniversal
+
+- type: loadout
+  id: LoadoutCommandBSMagazineUniversalMagnum
+  category: JobsCommandAUncategorized
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagazineBS
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - MagazineUniversalMagnum
+
+- type: loadout
+  id: LoadoutCommandBSMagazineMagnum
+  category: JobsCommandAUncategorized
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagazineBS
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - MagazineMagnum
+
+- type: loadout
+  id: LoadoutCommandBSSkirtleneck
+  category: JobsCommandAUncategorized
+  cost: 0
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - LPPClothingUniformSkirtleneckBlueshield

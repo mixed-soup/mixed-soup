@@ -1,0 +1,66 @@
+- type: job
+  id: Captain
+  name: job-name-captain
+  description: job-description-captain
+  playTimeTracker: JobCaptain
+  requirements:
+    - !type:CharacterHeightRequirement
+      min: 150
+    - !type:CharacterAgeRequirement
+      min: 25
+      max: 80
+    - !type:CharacterDepartmentTimeRequirement
+      department: Logistics # DeltaV - Logistics Department replacing Cargo
+      min: 18000 # DeltaV - 5 hours
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 18000 # DeltaV - 5 hours
+    - !type:CharacterDepartmentTimeRequirement
+      department: Medical
+      min: 18000 # DeltaV - 5 hours
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 18000 # DeltaV - 5 hours
+    - !type:CharacterDepartmentTimeRequirement # DeltaV - Epistemics dept time requirement
+      department: Epistemics # DeltaV - Epistemics Department replacing Science
+      min: 18000 # 5 hours
+    - !type:CharacterDepartmentTimeRequirement
+      department: Command
+      min: 108000 # DeltaV - 30 hours
+    - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
+      min: 108000 # 30 hours
+#    - !type:CharacterWhitelistRequirement
+  weight: 20
+  startingGear: CaptainGear
+  icon: JobIconCaptain
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: CaptainGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCaptain
+    back: ClothingBackpackCaptainFilled
+    shoes: ClothingShoesBootsLaceup
+    id: CaptainPDA
+    ears: ClothingHeadsetAltCommand
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpskirtCaptain
+  satchel: ClothingBackpackSatchelCaptainFilled
+  duffelbag: ClothingBackpackDuffelCaptainFilled
+  # storage:
+  #   back:
+  #   - LPPTelebaton

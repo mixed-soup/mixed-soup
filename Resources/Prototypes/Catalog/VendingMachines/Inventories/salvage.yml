@@ -1,0 +1,26 @@
+﻿- type: vendingMachineInventory
+  id: SalvageEquipmentInventory
+  startingInventory:
+    Crowbar: 2
+    Pickaxe: 4
+    OreBag: 4
+    Flare: 4
+    FlashlightLantern: 2
+    Floodlight: 2
+    HandheldGPSBasic: 2
+    RadioHandheld: 2
+    WeaponGrapplingGun: 4
+    WeaponProtoKineticAccelerator: 4
+    SeismicCharge: 2
+    FultonBeacon: 1
+    Fulton: 2
+#LPP
+    WeaponCrusherDagger: 4
+  contrabandInventory:
+    ClothingMaskGasMerc: 1
+    ClothingUniformJumpsuitMercenary: 1
+    ClothingHandsGlovesMercFingerless: 1
+    ClothingShoesBootsMerc: 1
+  emaggedInventory:
+    WeaponCrusherGlaive: 1
+    ClothingBackpackDuffelSyndicate: 1

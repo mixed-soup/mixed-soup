@@ -1,0 +1,14 @@
+ent-MobSiliconBase = { "" }
+    .desc = { "" }
+ent-MobHonkBot = Хонкбот
+    .desc = Ужасающе.
+ent-MobJonkBot = Кринжбот
+    .desc = Ужасающе.
+ent-MobCleanBot = Чистобот
+    .desc = Ужас автоматизации теперь угрожает и космическим уборщикам.
+ent-MobMedibot = Медибот
+    .desc = Не заменит врача, но лучше, чем ничего.
+ent-MobMimeBot = Мимбот
+    .desc = Почему бы не помахать мимботу?
+ent-MobSupplyBot = Поставбот
+    .desc = Доставляет груз!

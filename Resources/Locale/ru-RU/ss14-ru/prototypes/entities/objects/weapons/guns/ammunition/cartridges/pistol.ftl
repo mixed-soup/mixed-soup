@@ -1,0 +1,12 @@
+ent-BaseCartridgePistol = Патрон (.35 авто)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgePistol = Патрон (.35 авто)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistolPractice = Патрон (.35 авто учебный)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistolIncendiary = Патрон (.35 авто зажигательный)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistolUranium = Патрон (.35 авто урановый)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistolRubber = Патрон (.35 авто резиновый)
+    .desc = { ent-BaseCartridgePistol.desc }

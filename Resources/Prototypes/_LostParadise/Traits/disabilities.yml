@@ -1,0 +1,21 @@
+- type: trait
+  id: LPPSlowEater
+  category: Physical
+  points: 1
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: ConsumeDelayModifier
+          foodDelayMultiplier: 1.6
+          drinkDelayMultiplier: 1.6
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Vulpkanin
+        - IPC
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg

@@ -1,0 +1,11 @@
+ent-SolarPanelBasePhysSprite = Солнечная панель
+    .desc = { "" }
+ent-SolarPanel = Солнечная панель
+    .desc = Солнечная панель, вырабатывающая электроэнергию.
+ent-SolarPanelBroken = Солнечная панель
+    .suffix = Сломанная
+    .desc = { ent-SolarPanelBasePhysSprite.desc }
+ent-SolarAssembly = Каркас солнечной панели
+    .desc = Каркас солнечной панели. Закрепите чтобы начать строить солнечную панель или солнечный трекер.
+ent-SolarTracker = Солнечный трекер
+    .desc = Солнечный трекер. Отслеживает ближайшую звезду.

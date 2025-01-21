@@ -1,0 +1,57 @@
+- type: job
+  id: Brigmedic
+  name: job-name-brigmedic
+  description: job-description-brigmedic
+  playTimeTracker: JobBrigmedic
+  requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      min: 21600 # 6 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      min: 18000 # 4 hrs
+  startingGear: CorpsmanGear
+  icon: "JobIconBrigmedic"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Medical
+  - Security
+  - Service
+#  - Brig
+  - Maintenance
+  - External
+  - Corpsman
+  extendedAccess:
+  - Chemistry
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
+    - type: SurgerySpeedModifier
+      speedModifier: 2.0
+
+- type: startingGear
+  id: CorpsmanGear # see Prototypes/Roles/Jobs/Fun/misc_startinggear.yml for "BrigmedicGear"
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
+    outerClothing: ClothingOuterArmorPlateCarrier
+    back: ClothingBackpackBrigmedicFilled
+    shoes: ClothingShoesBootsCombatFilled
+    gloves: LPPClothingHandsGlovesCombatNitrile
+    eyes: ClothingEyesHudMedSec
+    head: ClothingHeadHatBeretCorpsman
+    id: CorpsmanPDA
+    ears: ClothingHeadsetBrigmedic
+    belt: ClothingBeltCorpsmanWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpskirtBrigmedic
+  satchel: ClothingBackpackSatchelBrigmedicFilled
+  duffelbag: ClothingBackpackDuffelBrigmedicFilled

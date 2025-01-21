@@ -1,0 +1,103 @@
+- type: entity
+  id: LPPRCDFAPDevice
+  parent: BaseItem
+  name: RCDFAP
+  description: A hand-held Atmospheric construction device that is used to create gas pipes, recycling pipes and other atmospheric devices. The latest technology BL CORP.
+  components:
+  - type: RCDFAP
+    availablePrototypes:
+    - LPPFireAlarm
+    - LPPGasPipeBend
+    - LPPGasPipeStraight
+    - LPPGasPipeHalf
+    - LPPGasPipeFourway
+    - LPPGasPipeTJunction
+    - LPPGasPressurePump
+    - LPPGasMixer
+    - LPPGasMixerFlipped
+    - LPPGasFilter
+    - LPPGasFilterFlipped
+    - LPPGasVolumePump
+    - LPPGasPassiveVent
+    - LPPGasOutletInjector
+    - LPPGasVentPump
+    - LPPGasValve
+    - LPPGasVentScrubber
+    - LPPAtmosDeviceFanTiny
+    - LPPGasPassiveGate
+    - LPPGasDualPortVentPump
+    - LPPSignalControlledValve
+    - LPPPressureControlledValve
+    - LPPDisposalUnit
+    - LPPMailingUnit
+    - LPPGasPort
+    - LPPDisposalJunctionFlipped
+    - LPPDisposalJunction
+    - LPPDisposalRouterFlipped
+    - LPPDisposalRouter
+    - LPPDisposalTagger
+    - LPPDisposalBend
+    - LPPDisposalYJunction
+    - LPPDisposalSignalRouter
+    - LPPDisposalSignalRouterFlipped
+    - LPPDisposalTrunk
+    - LPPDisposalPipe
+    - LPPAirSensor
+    - LPPFloorDrain
+    - LPPAirAlarm
+    - LPPDeconstruct
+  - type: LimitedCharges
+    maxCharges: 130
+    charges: 130
+  - type: UseDelay
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tools/rcdfap.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Clothing
+    sprite: _LostParadise/Objects/Tools/rcdfap.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 600
+      Plastic: 100
+  - type: StaticPrice
+    price: 100
+  - type: UserInterface
+    interfaces:
+      enum.RcdfapUiKey.Key:
+        type: RCDFAPMenuBoundUserInterface
+  - type: ActivatableUI
+    key: enum.RcdfapUiKey.Key
+
+- type: entity
+  id: LPPRCDFAPDeviceEmpty
+  parent: LPPRCDFAPDevice
+  suffix: Empty
+  components:
+  - type: LimitedCharges
+    maxCharges: 130
+    charges: 0
+
+- type: entity
+  id: LPPRCDFAPAmmo
+  parent: BaseItem
+  name: Compressed matter
+  description: Compressed matter used by the RCDFAP for the construction of structures for atmospheric purposes, provided BL CORP.
+  components:
+  - type: RCDFAPAmmo
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tools/rcdfap.rsi
+    state: ammo
+  - type: Item
+    sprite: _LostParadise/Objects/Tools/rcdfap.rsi
+    heldPrefix: ammo
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+      Plastic: 100
+  - type: StaticPrice
+    price: 60

@@ -1,0 +1,11 @@
+- type: reaction
+  id: BlessHolyWater
+  sound: /Audio/Effects/holy.ogg
+  impact: Low
+  requiredMixerCategories:
+  - Holy
+  reactants:
+    Water:
+      amount: 1
+  products:
+    HolyWater: 1

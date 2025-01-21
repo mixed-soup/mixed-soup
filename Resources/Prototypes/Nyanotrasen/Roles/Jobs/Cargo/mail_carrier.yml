@@ -1,0 +1,33 @@
+- type: job
+  id: MailCarrier
+  name: job-name-mail-carrier
+  description: job-description-mail-carrier
+  startingGear: CourierGear
+  playTimeTracker: JobMailCarrier
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 3600 # LostParadise - 1 hour
+  icon: "JobIconMailCarrier"
+  supervisors: job-supervisors-qm
+  access:
+  - Cargo
+  - Maintenance
+  - Mail
+
+- type: startingGear
+  id: MailCarrierGear
+  equipment:
+    head: ClothingHeadMailCarrier
+    jumpsuit: ClothingUniformMailCarrier
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlack
+    id: MailCarrierPDA
+    ears: ClothingHeadsetCargo
+    belt: MailBag
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformSkirtMailCarrier
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

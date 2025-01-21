@@ -1,0 +1,14 @@
+ent-BlueLightTube = Синяя лампа-труба
+    .desc = Содержит меркурий. Источает синий цвет.
+ent-LightBulbMaintenance = Лампа накаливания
+    .desc = Обычная лампочка.
+    .suffix = Технические
+ent-ColoredLightTubeRed = Красная лампа-труба
+    .desc = Цветная лампа-труба. Источает красный свет.
+ent-ColoredLightTubeFrostyBlue = Ярко-синяя лампа-труба
+    .desc = Цветная лампа-труба. Источает ярко-синий свет.
+ent-ColoredLightTubeBlackLight = Чёрная лампа-труба
+    .desc = Цветная лампа-труба. Источает "чёрный свет".
+ent-LightBulbMaintenanceRed = Лампа накаливания
+    .desc = Обычная лампочка. Источает красный свет.
+    .suffix = Технические, Красный

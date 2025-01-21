@@ -1,0 +1,16 @@
+ent-BaseSpeedLoaderMagnum = Спидлоадер (.45 магнум)
+    .desc = { ent-BaseItem.desc }
+ent-SpeedLoaderMagnum = Спидлоадер (.45 магнум)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumEmpty = Спидлоадер (.45 магнум любые)
+    .desc = { ent-SpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumIncendiary = Спидлоадер (.45 магнум зажигательные)
+    .desc = { ent-SpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumPractice = Спидлоадер (.45 магнум учебные)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumAP = Спидлоадер (.45 магнум бронебойные)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumUranium = Спидлоадер (.45 магнум урановые)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumRubber = Спидлоадер (.45 магнум резиновые)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }

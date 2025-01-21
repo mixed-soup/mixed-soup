@@ -1,0 +1,20 @@
+- type: entity
+  id: LPPCrateRCDFAPAmmo
+  parent: CrateEngineering
+  name: Crate with RCDFAP matter
+  description: It contains a some of compressed matter for the RCDFAP.
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPRCDFAPAmmo
+      amount: 2
+
+- type: entity
+  id: LPPCrateRCDFAP
+  parent: CrateEngineeringSecure
+  name: RCDFAP
+  description: A box containing one hand-held atmospheric construction device.
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPRCDFAPDevice

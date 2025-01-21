@@ -1,0 +1,16 @@
+ent-BaseMagazineBoxRifle = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxRifleBig = Ящик патронов (.20 винтовочные)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifleBigRubber = Ящик патронов (.20 винтовочные резиновые)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifle = Коробка патронов (.20 винтовочные)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRiflePractice = Коробка патронов (.20 винтовочные учебные)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifleRubber = Коробка патронов (.20 винтовочные резиновые)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifleIncendiary = Коробка патронов (.20 винтовочные зажигательные)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifleUranium = Коробка патронов (.20 винтовочные урановые)
+    .desc = { ent-BaseMagazineBoxRifle.desc }

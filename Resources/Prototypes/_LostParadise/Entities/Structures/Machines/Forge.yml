@@ -1,0 +1,94 @@
+- type: entity
+  id: LPPSpaceForge
+  parent: BaseLathe
+  name: Space Forge
+  description: This dome of the machine is designed for printing spacesuits so that personnel can safely go into space without fear of suffocation. By the way, all the characteristics are similar to other protoliths, but its structure and assembly look different.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: Machine
+    board: LPPSpaceForgeCircuitBoard
+  - type: Lathe
+    producingSound: /Audio/Machines/circuitprinter.ogg
+    idleState: icon
+    runningState: building
+    staticRecipes:
+      - LPPClothingOuterHardsuitBasic
+      - LPPClothingOuterHardsuitEVA
+      - LPPClothingHeadHelmetEVALarge
+    dynamicRecipes:
+      - LPPClothingOuterHardsuitVoidParamed
+      - LPPClothingOuterHardsuitSpatio
+      - LPPClothingOuterHardsuitLuxury
+      - LPPClothingOuterHardsuitSalvage
+      - LPPClothingOuterHardsuitAtmos
+      - LPPClothingOuterHardsuitEngineering
+
+- type: entity
+  id: LPPSpaceForgeCMDAndSec
+  parent: BaseLathe
+  name: Space Forge of command
+  description: This dome of the machine is designed for printing spacesuits so that personnel can safely go into space without fear of suffocation. By the way, all the characteristics are similar to other protoliths, but its structure and assembly look different.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: Machine
+    board: LPPSpaceForgeCircuitBoardCMDAndSec
+  - type: Lathe
+    producingSound: /Audio/Machines/circuitprinter.ogg
+    idleState: icon
+    runningState: building
+    dynamicRecipes:
+      - LPPClothingOuterArmorReflective
+      - LPPClothingOuterHardsuitSecurityEng
+      - LPPClothingOuterHardsuitCombatHoS
+      - LPPClothingOuterHardsuitCombatAdvanced
+      - LPPClothingOuterHardsuitCombatWarden
+      - LPPClothingOuterHardsuitSecurityRed
+      - LPPClothingOuterHardsuitPilotSecurity
+      - LPPClothingOuterHardsuitWarden
+      - LPPClothingOuterHardsuitCombatCorpsman
+      - LPPClothingOuterHardsuitCombatRiot
+      - LPPClothingOuterHardsuitCombatStandard
+      - LPPClothingOuterHardsuitCombatOfficer
+      - LPPClothingOuterHardsuitCombatMedical
+      - LPPClothingOuterHardsuitSecurity
+      - LPPClothingOuterHardsuitBrigmedic
+      - LPPHardsuitAssaultParamedic
+      - LPPClothingOuterHardsuitMedical
+      - LPPClothingOuterHardsuitEngineeringWhite
+      - LPPClothingOuterHardsuitReflectivepatrolsec

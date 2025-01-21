@@ -1,0 +1,45 @@
+- type: job
+  id: Prosecutor
+  name: job-name-prosecutor
+  description: job-description-prosecutor
+  playTimeTracker: JobProsecutor
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 36000 # 10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      min: 36000 # 10 hrs
+  startingGear: ProsecutorGear
+  icon: "JobIconProsecutor"
+  supervisors: job-supervisors-cj
+  canBeAntag: false
+  access:
+  - Prosecutor
+  - Justice
+  - Security
+  - Maintenance
+  - Lawyer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: ProsecutorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitProsecutor
+    neck: ClothingNeckProsecutorbadge
+    back: ClothingBackpackLawyerFilled
+    shoes: ClothingShoesBootsLaceup
+    id: ProsecutorPDA
+    ears: ClothingHeadsetSecurity
+    # TODO add copy of space law
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
+  inhand:
+    - BriefcaseBrownFilled
+  innerClothingSkirt: ClothingUniformJumpskirtProsecutor
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
