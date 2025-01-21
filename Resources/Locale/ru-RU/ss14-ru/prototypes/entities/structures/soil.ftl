@@ -1,0 +1,2 @@
+ent-hydroponicsSoil = Почва
+    .desc = { "" }

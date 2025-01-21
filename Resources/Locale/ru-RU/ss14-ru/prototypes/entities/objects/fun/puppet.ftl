@@ -1,0 +1,15 @@
+ent-MrChips = Мистер Чипс
+    .desc = Это кукла!
+    .suffix = Кукла
+ent-MrDips = Мистер Дипс
+    .desc = { ent-MrChips.desc }
+ent-PetRockCarrier = Плюшевый камень-питомец
+    .desc = Твой новый и единственный лучший друг дома!
+ent-BasePetRock = Плюшевый камень-питомец
+    .desc = Твой новый и единственный лучший друг!
+ent-PetRock = { ent-BasePetRock }
+    .desc = { ent-BasePetRock.desc }
+ent-PetRockFred = Плюшевый камень-питомец Фред
+    .desc = { ent-BasePetRock.desc }
+ent-PetRockRoxie = Плюшевый камень-питомец Рокси
+    .desc = { ent-BasePetRock.desc }

@@ -1,0 +1,14 @@
+ent-PartSilicon = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-BaseBorgArmLeft = Левая рука киборга
+    .desc = { ent-PartSilicon.desc }
+ent-BaseBorgArmRight = Правая рука киборга
+    .desc = { ent-PartSilicon.desc }
+ent-BaseBorgLegLeft = Левая нога киборга
+    .desc = { ent-PartSilicon.desc }
+ent-BaseBorgLegRight = Правая нога киборга
+    .desc = { ent-PartSilicon.desc }
+ent-BaseBorgHead = Голова киборга
+    .desc = { ent-PartSilicon.desc }
+ent-BaseBorgTorso = Туловище киборга
+    .desc = { ent-PartSilicon.desc }

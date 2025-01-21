@@ -1,0 +1,42 @@
+- type: entity
+  id: LPPLockerBlueShield
+  name: blue shield locker
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: AccessReader
+    access: [["Captain"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: hop
+    stateDoorOpen: hop_open
+    stateDoorClosed: representative_door
+
+# Security Enginer
+
+- type: entity
+  id: LPPLockerSecEng
+  parent: LockerBaseSecure
+  name: field engineer's cabinet
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: sec_engi
+    stateDoorOpen: armory_open
+    stateDoorClosed: sec_eng_door
+  - type: AccessReader
+    access: [["Engineering"]]
+
+# Expeditor
+
+- type: entity
+  id: LPPLockerExpeditor
+  parent: LockerBaseSecure
+  name: Expeditor Locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: expeditor
+    stateDoorOpen:  expeditor_open
+    stateDoorClosed: expeditor_door
+  - type: AccessReader
+    access: [["Gateway"]]

@@ -1,0 +1,39 @@
+- type: job
+  id: TechnicalAssistant
+  name: job-name-technical-assistant
+  description: job-description-technical-assistant
+  playTimeTracker: JobTechnicalAssistant
+  antagAdvantage: 3 # DeltaV - Reduced TC: External Access + Engineering
+  requirements:
+    - !type:CharacterOverallTimeRequirement # DeltaV - to prevent griefers from taking the role.
+      min: 1800 # LostParadise - 30 min
+    # - !type:DepartmentTimeRequirement # Lost Paradise - return time limit
+    #   department: Engineering
+    #   time: 54000 #15 hrs
+    #   inverted: true # stop playing intern if you're good at engineering!
+  startingGear: TechnicalAssistantGear
+  icon: "JobIconTechnicalAssistant"
+  supervisors: job-supervisors-engineering
+  canBeAntag: true # DeltaV - Can be antagonist
+  access:
+  - Maintenance
+  - Engineering
+  - External
+
+- type: startingGear
+  id: TechnicalAssistantGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorYellow
+    back: ClothingBackpackEngineeringFilled
+    shoes: ClothingShoesBootsWork
+    id: TechnicalAssistantPDA
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+    pocket2: BookEngineersHandbook
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpskirtColorYellow
+  satchel: ClothingBackpackSatchelEngineeringFilled
+  duffelbag: ClothingBackpackDuffelEngineeringFilled

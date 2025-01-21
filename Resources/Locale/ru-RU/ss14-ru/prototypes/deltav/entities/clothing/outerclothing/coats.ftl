@@ -1,0 +1,17 @@
+ent-ClothingOuterCoatRyuzo = Одеяние мудреца
+    .desc = Где-то в другой вселенной Джей - смертоносное животное.
+    .suffix = АДМЕМЫ, НЕ МАППИТЬ
+ent-ClothingOuterCoatHoPArmored = Бронированная куртка главы персонала
+    .desc = Удобная и тёплая куртка, которая позволит пережить попадание нескольких пуль.
+ent-ClothingOuterCoatOvercoat = Накидка
+    .desc = Тёплая, тёмного цвета, накидка для официальных встреч.
+ent-ClothingOuterCoatGreatcoat = Шинель
+    .desc = Унылая шинель для стариков и деловых личностей.
+ent-ClothingOuterCoatLeatherJacket = Кожанка
+    .desc = Потрёпанная кожанка, снятая со старого модника.
+ent-ClothingOuterCoatCybersunWindbreaker = Ветровка Cybersun
+    .desc = Ветровка полевого врача, состоящего в спасательном отряде Cybersun. Имеет баллистическое покрытие.
+ent-ClothingOuterCoatHoPFormal = Формальное пальто главы персонала
+    .desc = Новомодное пальто главы персонала с золотыми лычками и пуговичками.
+ent-ClothingOuterChiefJustice = Пальто верховного судьи
+    .desc = Громоздкое пальто с пурпурными элементами. Пахнет стариной.

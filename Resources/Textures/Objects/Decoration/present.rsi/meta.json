@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Made with love by Shaeone, (blue, purple, green) by angensnofori",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "present"
+    },
+    {
+      "name": "unwrapped"
+    },
+    {
+      "name": "red"
+    },
+    {
+      "name": "blue"
+    },
+    {
+      "name": "purple"
+    },
+    {
+      "name": "green"
+    }
+  ]
+}

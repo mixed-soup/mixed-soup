@@ -1,0 +1,88 @@
+- type: entity
+  parent: BaseEngineerPDA
+  id: LPPSecurityEngineerPDA
+  name: security PDA
+  description: Red to hide the stains of passenger blood.
+  components:
+  - type: Pda
+    id: LPPSecurityEngineerIDCard
+    state: pda-security-enginer
+  - type: PdaBorderColor
+    borderColor: "#9b2b2a"
+  - type: Icon
+    state: pda-security
+  - type: CartridgeLoader
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - CrimeAssistCartridge
+      - SecWatchCartridge
+      - NanoChatCartridge
+
+- type: entity
+  parent: BasePDA
+  id: LPPBlueShieldOfficerPDA
+  name: BlueShield PDA
+  description: Smells like protection.
+  components:
+    - type: Pda
+      id: LPPBlueShieldOfficerIDCard
+      state: pda-ert
+    - type: PdaBorderColor
+      borderColor: "#2b92ad"
+      accentVColor: "#447987"
+    - type: Icon
+      state: pda-ert
+    - type: HealthAnalyzer
+      scanDelay: 1.2
+
+# - type: entity
+#   parent: BasePDA
+#   id: LPPAdjutantPDA
+#   name: adjutant PDA
+#   description: Adjutant PDA.
+#   components:
+#   - type: Pda
+#     id: LPPAdjutantIDCard
+#     state: pda-clear
+#   - type: Icon
+#     state: pda-clear
+
+- type: entity
+  parent: BasePDA
+  id: LPPExpeditorPDA
+  name: expeditor PDA
+  description: lol
+  components:
+  - type: Pda
+    id: LPPExpeditorIDCard
+    state: pda-expeditor
+  - type: PdaBorderColor
+    borderColor: "#655f56"
+    accentVColor: "#8f559c"
+  - type: Icon
+    state: pda-expeditor
+
+- type: entity
+  parent: BasePDA
+  id: LPPSecPilotPDA
+  name: security pilot PDA
+  description: Beaten, battered and broken, but just barely useable.
+  components:
+  - type: Pda
+    id: LPPSecPilotIDCard
+    state: pda-seniorofficer
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentVColor: "#DFDFDF"
+  - type: Icon
+    state: pda-seniorofficer
+  - type: CartridgeLoader
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - CrimeAssistCartridge
+      - SecWatchCartridge
+      - NanoChatCartridge

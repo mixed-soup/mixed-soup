@@ -1,0 +1,36 @@
+﻿- type: job
+  id: ServiceWorker
+  name: job-name-serviceworker
+  description: job-description-serviceworker
+  playTimeTracker: JobServiceWorker
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 1800 # LostParadise - 30 min
+  startingGear: ServiceWorkerGear
+  icon: "JobIconServiceWorker"
+  supervisors: job-supervisors-service
+  canBeAntag: true # DeltaV - Can be antagonist
+  antagAdvantage: 1 # DeltaV - Reduced TC: Accesses
+  access:
+  - Service
+  - Maintenance
+  extendedAccess:
+  - Hydroponics
+  - Bar # DeltaV - moved to extended access
+  - Kitchen # DeltaV - moved to extended access
+
+- type: startingGear
+  id: ServiceWorkerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorDarkGreen # DeltaV
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlack
+    id: ServiceWorkerPDA
+    ears: ClothingHeadsetService
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpskirtColorDarkGreen # DeltaV
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

@@ -1,0 +1,15 @@
+- type: vendingMachineInventory
+  id: PrideDrobeInventory
+  startingInventory:
+       LPPClothingNeckRussianPin: 10
+       ClothingUnderSocksCoder: 3
+       ClothingNeckCloakTrans: 3
+       ClothingNeckCloakAce: 3
+       ClothingNeckCloakAro: 3
+       ClothingNeckCloakBi: 3
+       ClothingNeckCloakIntersex: 3
+       ClothingNeckCloakLesbian: 3
+       ClothingNeckCloakGay: 3
+       ClothingNeckCloakEnby: 3
+       ClothingNeckCloakPan: 3
+       #Простите Дельтовцы, но мы русские с нами УК и КОАП РФ

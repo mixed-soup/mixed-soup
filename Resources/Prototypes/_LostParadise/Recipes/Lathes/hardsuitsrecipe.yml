@@ -1,0 +1,314 @@
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitReflectivepatrolsec
+  result: LPPClothingOuterHardsuitReflectivepatrolsec
+  category: hardsuit
+  completetime: 20
+  materials:
+    Steel: 1200
+    Glass: 900
+    Silver: 500
+    Gold: 300
+    Plasteel: 500
+    LPPDiamond: 3500
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitEngineering
+  result: ClothingOuterHardsuitEngineering
+  category: hardsuit
+  completetime: 15
+  materials:
+    Steel: 1200
+    Glass: 900
+    Plasteel: 1000
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitEVA
+  result: ClothingOuterHardsuitEVA
+  category: hardsuit
+  completetime: 7
+  materials:
+    Steel: 800
+    Glass: 900
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingHeadHelmetEVALarge
+  result: ClothingHeadHelmetEVALarge
+  category: hardsuit
+  completetime: 5
+  materials:
+    Steel: 500
+    Glass: 300
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitAtmos
+  result: ClothingOuterHardsuitAtmos
+  category: hardsuit
+  completetime: 15
+  materials:
+    Steel: 1000
+    Glass: 900
+    Plasma: 1500
+    Uranium: 400
+    Gold: 400
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitMedical
+  result: ClothingOuterHardsuitMedical
+  category: hardsuit
+  completetime: 15
+  materials:
+    Steel: 1300
+    Glass: 900
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitSalvage
+  result: ClothingOuterHardsuitSalvage
+  category: hardsuit
+  completetime: 15
+  materials:
+    Steel: 1000
+    Glass: 900
+    Silver: 100
+    Gold: 300
+    Plasteel: 700
+    Uranium: 300
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitLuxury
+  result: ClothingOuterHardsuitLuxury
+  category: hardsuit
+  completetime: 15
+  materials:
+    Steel: 900
+    Glass: 1000
+    Gold: 500
+    Silver: 200
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitSpatio
+  result: ClothingOuterHardsuitSpatio
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Uranium: 300
+
+- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+  id: LPPClothingOuterHardsuitEngineeringWhite
+  result: ClothingOuterHardsuitEngineeringWhite
+  category: hardsuit
+  completetime: 20
+  materials:
+    Steel: 1000
+    Glass: 900
+    Uranium: 1000
+    Plasma: 500
+    LPPDiamond: 2000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitVoidParamed
+  result: ClothingOuterHardsuitVoidParamed
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Plasma: 200
+
+- type: latheRecipe
+  id: LPPHardsuitAssaultParamedic
+  result: LPPHardsuitAssaultParamedic
+  category: hardsuit
+  completetime: 20
+  materials:
+    Silver: 600
+    Gold: 600
+    Steel: 1000
+    Glass: 900
+    LPPDiamond: 2000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitBasic
+  result: ClothingOuterHardsuitBasic
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitBrigmedic
+  result: ClothingOuterHardsuitBrigmedic
+  category: hardsuit
+  completetime: 10
+  materials:
+    Gold: 500
+    Plasteel: 1000
+    Steel: 1000
+    Glass: 900
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitSecurity
+  result: ClothingOuterHardsuitSecurity
+  category: hardsuit
+  completetime: 10
+  materials:
+    Gold: 500
+    Plasteel: 1000
+    Steel: 1000
+    Glass: 900
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitCombatCorpsman
+  result: ClothingOuterHardsuitCombatCorpsman
+  category: hardsuit
+  completetime: 10
+  materials:
+    Uranium: 500
+    Gold: 500
+    Plasteel: 1000
+    Steel: 1000
+    Glass: 900
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitCombatMedical
+  result: ClothingOuterHardsuitCombatMedical
+  category: hardsuit
+  completetime: 10
+  materials:
+    Uranium: 500
+    Gold: 500
+    Plasteel: 1000
+    Steel: 1000
+    Glass: 900
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitCombatOfficer
+  result: ClothingOuterHardsuitCombatOfficer
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitCombatStandard
+  result: ClothingOuterHardsuitCombatStandard
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitCombatRiot
+  result: ClothingOuterHardsuitCombatRiot
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitWarden
+  result: ClothingOuterHardsuitWarden
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitPilotSecurity
+  result: LPPClothingOuterHardsuitPilotSecurity
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitSecurityRed
+  result: ClothingOuterHardsuitSecurityRed
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitCombatWarden
+  result: ClothingOuterHardsuitCombatWarden
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitCombatAdvanced
+  result: ClothingOuterHardsuitCombatAdvanced
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1200
+    Glass: 900
+    Gold: 500
+    Plasteel: 1200
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitCombatHoS
+  result: ClothingOuterHardsuitCombatHoS
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+    Silver: 600
+
+- type: latheRecipe
+  id: LPPClothingOuterHardsuitSecurityEng
+  result: LPPClothingOuterHardsuitSecurityEng
+  category: hardsuit
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: LPPCombatHypospray
+  result: LPPCombatHypospray
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 100
+    Silver: 200
+
+- type: latheRecipe
+  id: LPPCombatDefibrillator
+  result: LPPCombatDefibrillator
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 900
+    Gold: 100

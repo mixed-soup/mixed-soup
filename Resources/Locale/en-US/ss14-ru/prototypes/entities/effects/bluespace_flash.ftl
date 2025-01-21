@@ -1,0 +1,14 @@
+ent-EffectFlashBluespace = { "" }
+    .desc = { "" }
+ent-EffectFlashTelekineticPulse = { "" }
+    .desc = { "" }
+ent-EffectFlashShadeskip = { "" }
+    .desc = { "" }
+ent-EffectFlashShadowkinShadeskip = { "" }
+    .desc = { "" }
+ent-EffectFlashShadowkinDarkSwapOn = { "" }
+    .desc = { "" }
+ent-EffectFlashShadowkinDarkSwapOff = { "" }
+    .desc = { "" }
+ent-EffectPyrokineticFlare = { "" }
+    .desc = { "" }

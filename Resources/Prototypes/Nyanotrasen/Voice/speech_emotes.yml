@@ -1,0 +1,103 @@
+# vocal emotes
+- type: emote
+  id: Hiss
+  name: chat-emote-name-hisses
+  category: Vocal
+  icon: Interface/Emotes/hiss.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ chat-emote-msg-hisses ]
+  chatTriggers:
+    - hisses
+    - шипит
+    - шипит.
+    - шипит!
+
+- type: emote
+  id: Meow
+  name: chat-emote-name-meow
+  category: Vocal
+  icon: Interface/Emotes/meow.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ chat-emote-msg-meow ]
+  chatTriggers:
+    - meows
+    - miaus
+    - nyas
+    - mraows
+    - мяукает
+    - мяукает.
+    - мрякает
+    - мрякает.
+
+- type: emote
+  id: Mew
+  name: chat-emote-name-mew
+  category: Vocal
+  icon: Interface/Emotes/mew.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ chat-emote-msg-mews ]
+  chatTriggers:
+    - mews
+    - мавает
+    - мавает.
+    - мавает!
+
+- type: emote
+  id: Growl
+  name: chat-emote-name-growl
+  category: Vocal
+  icon: Interface/Emotes/growl.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ chat-emote-msg-growl ]
+  chatTriggers:
+    - growls
+    - рычит
+    - рычит.
+    - рычит!
+
+
+- type: emote
+  id: Purr
+  name: chat-emote-name-purr
+  category: Vocal
+  icon: Interface/Emotes/purr.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ chat-emote-msg-purrs ]
+  chatTriggers:
+    - purrs
+    - мурлыкает
+    - мурлыкает.
+    - мурчит
+    - мурчит.
+    - мурлычет
+    - мурлычет.

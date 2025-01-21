@@ -1,0 +1,10 @@
+ent-ClothingMaskGasChameleon = Противогаз
+    .desc = Закрывающая лицо маска, которую можно подключить к дыхательному баллону.
+    .suffix = Хамелеон
+ent-ClothingMaskGasVoiceChameleon = { ent-ClothingMaskGasChameleon }
+    .suffix = Голосовая маска, Хамелеон
+    .desc = { ent-ClothingMaskGasChameleon.desc }
+ent-ClothingMaskWeldingGas = сварочный противогаз
+    .desc = Противогаз со встроенными сварочными очками и защитной маской для лица. Выглядит как череп, явно созданный задротом.
+ent-ClothingMaskGoldenCursed = Золотая маска
+    .desc = Ранее использовалась в странных пантомимах, после того как один из актеров сошел с ума на сцене, эти маски были исключены из использования. Вы клянётесь, что её лицо искажено, когда вы не смотрите.

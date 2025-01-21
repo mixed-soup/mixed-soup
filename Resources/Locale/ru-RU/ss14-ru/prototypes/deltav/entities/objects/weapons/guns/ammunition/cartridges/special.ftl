@@ -1,0 +1,16 @@
+ent-BaseCartridgeSpecial = Патрон (.38 специальные)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeSpecial = Патрон (.38 специальные)
+    .desc = { ent-BaseCartridgeSpecial.desc }
+ent-CartridgeSpecialPractice = Патрон (.38 специальные учебные)
+    .desc = { ent-BaseCartridgeSpecial.desc }
+ent-CartridgeSpecialRubber = Патрон (.38 специальные резиновые)
+    .desc = { ent-BaseCartridgeSpecial.desc }
+ent-CartridgeSpecialIncendiary = Патрон (.38 специальные зажигательные)
+    .desc = { ent-BaseCartridgeSpecial.desc }
+ent-CartridgeSpecialUranium = Патрон (.38 специальные урановые)
+    .desc = { ent-BaseCartridgeSpecial.desc }
+ent-CartridgeSpecialHoly = Патрон (.38 специальные освещённые)
+    .desc = { ent-BaseCartridgeSpecial.desc }
+ent-CartridgeSpecialMindbreaker = Патрон (.38 специальные подавляющие)
+    .desc = { ent-BaseCartridgeSpecial.desc }

@@ -1,0 +1,76 @@
+- type: entity
+  parent: IDCardStandard
+  id: LPPSecurityEngineerIDCard
+  name: security ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: departmenthead
+      color: "#1B67A5"
+    - state: subdepartment
+      color: "#F39F27"
+    - state: idsecurityenginer
+  - type: PresetIdCard
+    job: LPPSecurityEngineer
+
+- type: entity
+  parent: IDCardStandard
+  id: LPPBlueShieldOfficerIDCard
+  name: Blue Shield Officer ID card
+  components:
+    - type: Sprite
+      state: ert_security
+    - type: PresetIdCard
+      job: LPPBlueShieldOfficer
+    - type: Access
+      groups:
+      - AllAccess
+
+# - type: entity
+#   parent: IDCardStandard
+#   id: LPPAdjutantIDCard
+#   name: adjutant ID card
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: default
+#     - state: departmenthead
+#       color: "#1B67A5"
+#     - state: subdepartment
+#       color: "#1B67A5"
+#     - state: idheadofpersonnel
+#   - type: PresetIdCard
+#     job: LPPAdjutant
+
+- type: entity
+  parent: IDCardStandard
+  id: LPPExpeditorIDCard
+  name: expeditor ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: department
+      color: "#C96DBF"
+    - state: subdepartment
+      color: "#C96DBF"
+    - state: idexpeditor
+  - type: PresetIdCard
+    job: Expeditor
+
+- type: entity
+  parent: IDCardStandard
+  id: LPPSecPilotIDCard
+  name: security pilot ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: departmenthead
+          color: "#1B67A5"
+        - state: subdepartment
+          color: "#CB0000"    #это надо будет настроить отдельно
+        - state: idseniorofficer
+    - type: PresetIdCard
+      job: SecPilot

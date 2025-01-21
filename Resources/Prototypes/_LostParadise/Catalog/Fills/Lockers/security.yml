@@ -1,0 +1,17 @@
+- type: entity
+  id: LPPLockerSecEngFilled
+  suffix: BrigTech, Filled
+  parent: LPPLockerSecEng
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingMilitaryWebbingSecEng
+      - id: LPPClothingBackpackDuffelSecurityEngineer
+      - id: ToolboxMechanicalFilled
+      - id: LPPClothingOuterHardsuitSecurityEng
+      - id: ClothingShoesBootsMag
+      - id: OxygenTankFilled
+      - id: JetpackSecurity
+      - id: LPPHammer
+      - id: RCD
+      - id: RCDAmmo

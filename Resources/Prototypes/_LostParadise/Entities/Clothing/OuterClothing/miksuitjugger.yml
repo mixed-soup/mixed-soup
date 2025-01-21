@@ -1,0 +1,59 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitMiksuitJugger
+  name: Discolored spacesuit GRT-43h - "Teknő"
+  description: A restored spacesuit of old models of Cybersun juggernauts, modified to suit the wishes of the current owner.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miksuitjugger.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miksuitjugger.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.30
+        Heat: 0.40
+        Radiation: 0.2
+        Caustic: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.6
+  # - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetMikhelmJugger
+  - type: StaminaDamageResistance
+    coefficient: 0.4
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetMikhelmJugger
+  name: Helmet GRT-43h
+  description: The helmet is from a spacesuit, the display is slightly broken, but you can work...
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miksuitjuggerhelm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miksuitjuggerhelm.rsi
+  - type: PointLight
+    color: white
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.95

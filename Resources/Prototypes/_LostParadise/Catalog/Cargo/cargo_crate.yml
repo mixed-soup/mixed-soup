@@ -1,0 +1,49 @@
+- type: cargoProduct
+  id: LPPCrateDEMOCRACYhasLanded
+  icon:
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/M4A1.rsi
+    state: icon
+  product: LPPCrateDEMOCRACY
+  cost: 15000
+  category: cargoproduct-category-name-security
+  group: market
+
+- type: cargoProduct
+  id: LPPCratehunterHasLanded
+  icon:
+    sprite: _LostParadise/Clothing/Head/Helmets/winterhardsuithelm.rsi
+    state: icon
+  product: LPPCratehunter
+  cost: 22500
+  category: cargoproduct-category-name-security
+  group: market
+
+- type: cargoProduct
+  id: LPPCrateVintageDEMOCRACYhasLanded
+  icon:
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/m1a.rsi
+    state: icon
+  product: LPPCrateVintageDEMOCRACY
+  cost: 19000
+  category: cargoproduct-category-name-security
+  group: market
+
+- type: cargoProduct
+  id: LPPCrateCrateRodoshasLanded
+  icon:
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/salvplus.rsi
+    state: icon
+  product: LPPCrateLogisticsRodosHardsuit
+  cost: 10000
+  category: cargoproduct-category-name-hardsuits
+  group: market
+
+- type: cargoProduct
+  id: LPPCrateCrateKerateiahasLanded
+  icon:
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/upgrmining.rsi
+    state: icon
+  product: LPPCrateLogisticsKerateiaHardsuit
+  cost: 12000
+  category: cargoproduct-category-name-hardsuits
+  group: market

@@ -1,0 +1,77 @@
+- type: job
+  id: ResearchDirector
+  name: job-name-rd
+  description: job-description-rd
+  playTimeTracker: JobResearchDirector
+  antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
+  requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
+      max: 80
+    - !type:CharacterDepartmentTimeRequirement
+      department: Epistemics # DeltaV - Epistemics Department replacing Science
+      min: 54000 # DeltaV - 15 hours
+    - !type:CharacterOverallTimeRequirement
+      min: 72000 # DeltaV - 20 hours
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - AnomalousPositronics
+  weight: 10
+  startingGear: ResearchDirectorGear
+  icon: "JobIconResearchDirector"
+  requireAdminNotify: true
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Research
+  - Command
+  - Maintenance
+  - ResearchDirector
+  - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
+  - Chapel # DeltaV - Chaplain is in Epistemics
+  - Cryogenics
+  - Gateway #LPP
+  special: # Nyanotrasen - Mystagogue can use the Bible
+  - !type:AddComponentSpecial
+    components:
+#    - type: BibleUser # Nyano - Lets them heal with bibles
+    - type: Psionic # Nyano - They start with telepathic chat
+      powerSlots: 3
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+      - type: InnatePsionicPowers
+        powersToAdd:
+          - DispelPower
+          - MetapsionicPower
+          - TelepathyPower
+      - type: SurgerySpeedModifier # LPP
+        SpeedModifier: 2.0
+
+- type: startingGear
+  id: ResearchDirectorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitResearchDirector
+    back: ClothingBackpackResearchDirectorFilled
+    shoes: ClothingShoesColorBrown
+    id: RnDPDA
+    ears: ClothingHeadsetRD
+    belt: BibleMystagogue # Nyanotrasen - Mystagogue book for their Ifrit
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpskirtResearchDirector
+  satchel: ClothingBackpackSatchelResearchDirectorFilled
+  duffelbag: ClothingBackpackDuffelResearchDirectorFilled
+  # storage:
+  #   back:
+  #   - LPPTelebaton

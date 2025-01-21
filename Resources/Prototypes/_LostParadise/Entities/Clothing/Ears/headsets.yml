@@ -1,0 +1,16 @@
+- type: entity
+  parent: ClothingHeadset
+  id: LPPClothingHeadsetSecurityEngineer
+  name: security headset
+  description: This is used by your elite security force.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySecurity
+      - EncryptionKeyEngineering
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Ears/security.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Ears/security.rsi

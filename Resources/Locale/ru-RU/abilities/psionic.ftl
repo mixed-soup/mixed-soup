@@ -1,0 +1,50 @@
+cage-resist-second-person = Вы начали убирать вашу { $cage }.
+cage-resist-third-person = { CAPITALIZE(THE($user)) } начал снимать { POSS-ADJ($user) } { $cage }.
+cage-uncage-verb = Освободиться
+action-name-metapsionic = Метапсионический импульс
+action-description-metapsionic = Пошлите мысленный импульс по окрестностям, чтобы узнать, есть ли поблизости экстрасенсы.
+metapsionic-pulse-success = Вы обнаруживаете поблизости психическое присутствие.
+metapsionic-pulse-failure = Вы не ощущаете поблизости никакого психического присутствия.
+metapsionic-pulse-power = Вы обнаруживаете, что поблизости использовали { $power }.
+action-name-dispel = Рассеить
+action-description-dispel = Развеять призванных существ по типу фамильяров или стен мима.
+action-name-mass-sleep = Массовое усыпление
+action-description-mass-sleep = Заставьте всех в небольшом раудисе уснусть.
+accept-psionics-window-title = Псионика!
+accept-psionics-window-prompt-text-part =
+    Вы получили псионические силы!
+    Возможно, за вами будут охотяться анти-псионические существа,
+    так что возможно вам стоит держать это в секрете.
+    Хотите-ли вы до сих пор быть псиоником?
+action-name-psionic-invisibility = Псионическая невидимость
+action-description-psionic-invisibility = Станьте невидимым для всех существ, способным стать псиоником. Борги, животные и так далее не подвержены этому воздействию.
+action-name-psionic-invisibility-off = Выключить псионическую невидимость
+action-description-psionic-invisibility-off = Станьте снова видимым и получите небольшое оглушение.
+action-name-mind-swap = Смена разума
+action-description-mind-swap = Смените разум с выбранной целью. Каждый из вас сможет вернуться в своё тело по истечению 20 секунд
+action-name-mind-swap-return = Отменить смену разума
+action-description-mind-swap-return = Вернуться в своё тело.
+action-name-telegnosis = Телегносис
+action-description-telegnosis = Создайте проекцию что бы удалённо осматривать местность.
+action-name-psionic-regeneration = Псионическая регенерация
+action-description-psionic-regeneration = Доведите свой метаболизм до предела что бы ускорить регенерацию.
+glimmer-report = Текущий уровень глиммера: { $level }Ψ.
+glimmer-event-report-generic = Разрядка ноöсферы. Уровень глиммера уменьшен на { $decrease }, текущий { $level }Ψ.
+glimmer-event-report-signatures = Проявились новые псионические сигнатуры. Уроверь глиммера уменьшен на { $decrease }, текущий { $level }Ψ.
+glimmer-event-awakened-prefix = { $entity } пробудился
+noospheric-zap-seize = Вы задыхаетесь!
+noospheric-zap-seize-potential-regained = Ты схватываешь на лету! Кажется, какой-то ментальный барьер тоже снят.
+mindswap-trapped = Кажется, ты заперт в этом сосуде.
+telegnostic-trapped-entity-name = разорванная телегностическая проекция
+telegnostic-trapped-entity-desc = Его многочисленные глаза выдают печаль.
+psionic-burns-up = { CAPITALIZE(THE($item)) } вспыхивает дугами странной энергии!!
+psionic-burn-resist = Странные дуги танцуют поперек { THE($item) }!
+action-name-noospheric-zap = Ноосферный бац
+action-description-noospheric-zap = Шокирует сознание жертвы, оставляя ее ошеломленной и заикающейся.
+action-name-pyrokinesis = Пирокинезис
+action-description-pyrokinesis = Подожгите легковоспламеняющуюся цель.
+pyrokinesis-power-used = Висп пламени охватил { THE($target) }, поджигая { OBJECT($target) }!
+action-name-psychokinesis = Психокинезис
+action-description-psychokinesis = Манипулируйте тканью пространства что бы пройти сквозь неё.
+action-name-rf-sensitivity = Активировать чуствительность к радиоволнам.
+action-desc-rf-sensitivity = Включите или выключите свою способность интерпретировать радиоволны

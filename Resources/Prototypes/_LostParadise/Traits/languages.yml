@@ -1,0 +1,33 @@
+﻿- type: trait
+  id: ElfLanguage
+  category: TraitsSpeechLanguages
+  points: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesBasic
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - ElfLang
+      languagesUnderstood:
+        - ElfLang
+
+- type: trait
+  id: DwarfLanguage
+  category: TraitsSpeechLanguages
+  points: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesBasic
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - DwarfLang
+      languagesUnderstood:
+        - DwarfLang

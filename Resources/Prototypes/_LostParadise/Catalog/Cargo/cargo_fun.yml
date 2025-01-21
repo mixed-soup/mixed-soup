@@ -1,0 +1,9 @@
+- type: cargoProduct
+  id: LPPFunRingBox
+  icon:
+    sprite: _LostParadise/Objects/Misc/RingBox.rsi
+    state: box
+  product: LPPRingBox
+  cost: 8000
+  category: Fun
+  group: market

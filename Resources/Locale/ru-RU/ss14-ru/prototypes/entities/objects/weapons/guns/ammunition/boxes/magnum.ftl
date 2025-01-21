@@ -1,0 +1,14 @@
+ent-BaseMagazineBoxMagnum = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxMagnum = Коробка патронов (.45 магнум)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumPractice = Коробка патронов (.45 магнум учебные)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumRubber = Коробка патронов (.45 магнум резиновые)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumIncendiary = Коробка патронов (.45 магнум зажигательные)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumUranium = Коробка патронов (.45 магнум урановые)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumAP = Коробка патронов (.45 магнум бронебойные)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }

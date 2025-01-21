@@ -1,0 +1,24 @@
+name: Check Merge Conflicts
+
+on:
+  push:
+    branches:
+    - master
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+
+jobs:
+  Label:
+    if: ( github.actor != 'PJBot' && github.actor != 'DeltaV-Bot' && github.actor != 'SimpleStation14' && github.actor != 'Lost-Paradise-Bot' )
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for Merge Conflicts
+        uses: eps1lon/actions-label-merge-conflict@v3.0.0
+        with:
+          dirtyLabel: "Статус: Конфликт"
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          commentOnDirty: "В этом ПР'е есть конфликты, пожалуйста, устраните их, прежде чем мы сможем оценить ваш ПР."

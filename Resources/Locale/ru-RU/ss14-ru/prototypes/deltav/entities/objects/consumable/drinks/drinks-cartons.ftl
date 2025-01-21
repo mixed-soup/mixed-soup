@@ -1,0 +1,12 @@
+ent-DrinkJuiceBoxBaseFull = { ent-DrinkBase }
+    .desc = { ent-DrinkBase.desc }
+ent-DrinkJuiceOrangeJuicebox = Коробка апельсинового сока
+    .desc = Великолепный источник витаминов. Будте здоровы!
+ent-DrinkJuicePineappleJuicebox = Коробка ананасового сока
+    .desc = Всеми любимый сок. Сластит не только язык.
+ent-DrinkJuiceAppleJuicebox = Коробка яблочного сока
+    .desc = Сладкий яблочный сок. Не опоздайте в школу!
+ent-DrinkJuiceGrapeJuicebox = Коробка виноградного сока
+    .desc = Вкусный виноградный сок в смешной маленькой упаковке. Не содержит алкоголь!
+ent-DrinkChocolateJuicebox = Коробка шоколада с молоком
+    .desc = Вкусный шоколад с моловок в маленькой упаковке. Содержит Теобромин.

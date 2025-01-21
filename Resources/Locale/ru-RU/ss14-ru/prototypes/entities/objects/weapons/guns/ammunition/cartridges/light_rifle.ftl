@@ -1,0 +1,12 @@
+ent-BaseCartridgeLightRifle = Патрон (.30 винтовочный)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeLightRifle = Патрон (.30 винтовочный)
+    .desc = { ent-BaseCartridgeLightRifle.desc }
+ent-CartridgeLightRiflePractice = Патрон (.30 винтовочный учебный)
+    .desc = { ent-BaseCartridgeLightRifle.desc }
+ent-CartridgeLightRifleIncendiary = Патрон (.30 винтовочный зажигательный)
+    .desc = { ent-BaseCartridgeLightRifle.desc }
+ent-CartridgeLightRifleUranium = Патрон (.30 винтовочный урановый)
+    .desc = { ent-BaseCartridgeLightRifle.desc }
+ent-CartridgeLightRifleRubber = Патрон (.30 винтовочный резиновый)
+    .desc = { ent-BaseCartridgeLightRifle.desc }

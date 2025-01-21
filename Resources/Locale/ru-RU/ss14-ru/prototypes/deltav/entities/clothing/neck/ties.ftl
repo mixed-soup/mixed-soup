@@ -1,0 +1,12 @@
+ent-ClothingNeckTieWhite = Белый галстук
+    .desc = Винтажный белый галстук.
+ent-ClothingNeckTieBlack = Чёрный галстук
+    .desc = Пепельно-чёрный галстук.
+ent-ClothingNeckTieBrown = Коричневый галстук
+    .desc = Шоколадного цвета галстук.
+ent-ClothingNeckTieBlue = Синий галстук
+    .desc = Лазурного цвета галстук.
+ent-ClothingNeckTieGreen = Зелёный галстук
+    .desc = Зелёный галстук, схожий с цветом травы.
+ent-ClothingNeckTieChem = Галстук химика
+    .desc = Галстук, что источает аромат лекарств.

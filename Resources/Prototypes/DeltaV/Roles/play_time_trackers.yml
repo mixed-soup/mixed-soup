@@ -1,0 +1,11 @@
+- type: playTimeTracker
+  id: JobBrigmedic
+
+- type: playTimeTracker
+  id: JobMedicalBorg
+
+- type: playTimeTracker
+  id: JobCourier
+
+- type: playTimeTracker
+  id: JobAdminAssistant
