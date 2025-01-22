@@ -1,0 +1,23 @@
+- type: entity
+  parent: BriefcaseBase
+  id: BriefcaseBlack
+  name: Презентабельный чемодан
+  components:
+  - type: Sprite
+    sprite: .Chi-Firka/Objects/Storage/Briefcases/briefcase_black.rsi
+    state: icon
+  - type: Item
+    sprite: .Chi-Firka/Objects/Storage/Briefcases/briefcase_black.rsi
+    size: Huge
+
+- type: entity
+  parent: BriefcaseBase
+  id: BriefcaseBlackAlt
+  name: Презентабельный чемодан
+  components:
+  - type: Sprite
+    sprite: .Chi-Firka/Objects/Storage/Briefcases/briefcase_black_alt.rsi
+    state: icon
+  - type: Item
+    sprite: .Chi-Firka/Objects/Storage/Briefcases/briefcase_black_alt.rsi
+    size: Huge

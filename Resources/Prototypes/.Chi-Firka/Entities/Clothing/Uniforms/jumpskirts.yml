@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtMeidoMaid
+  name: Old-fashioned maid uniform
+  description: Relic of Sector 13.
+  components:
+    - type: Sprite
+      sprite: .Chi-Firka/Clothing/Uniforms/Jumpskirt/meido.rsi
+    - type: Clothing
+      sprite: .Chi-Firka/Clothing/Uniforms/Jumpskirt/meido.rsi
