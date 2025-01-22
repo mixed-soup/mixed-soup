@@ -1,0 +1,14 @@
+- type: entity
+  id: MedkitCombatFilledDesoxypen
+  name: Боевая аптечка
+  suffix: Filled, Desoxypen
+  parent: MedkitCombat
+  components:
+  - type: StorageFill
+    contents:
+      - id: MedicatedSuture
+      - id: RegenerativeMesh
+      - id: DesoxyephedrineAutoInjector # Chi-Firka
+      - id: SyringeSaline
+      - id: BruteAutoInjector
+      - id: BurnAutoInjector
