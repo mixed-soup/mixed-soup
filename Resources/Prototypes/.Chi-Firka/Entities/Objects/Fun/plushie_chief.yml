@@ -1,0 +1,13 @@
+- type: entity
+  parent: BasePlushie
+  id: ChiefPlushie
+  name: Чиф
+  description: Лучший боец ДСО 3024 года.
+  components:
+  - type: Sprite
+    sprite: .Chi-Firka/Objects/Fun/plushie_chief.rsi
+    state: plushie_chief
+  - type: ItemSlots
+    slots:
+      stash:
+        startingItem: ClothingHeadHatCatEars
