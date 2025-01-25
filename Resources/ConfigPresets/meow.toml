@@ -1,0 +1,74 @@
+[net]
+max_connections = 1024
+tickrate = 45
+port = 1212
+bindto = "::,0.0.0.0"
+log_late_msg=false
+lidgren_log_warning = false
+lidgren_log_error = true
+upnp = true
+
+[log]
+path = "logs"
+format = "log_%(date)s-%(time)s.txt"
+level = 1
+enabled = true
+
+[status]
+enabled = true
+
+[game]
+hostname = "mixed-soup"
+maxplayers = 20
+soft_max_players = 10
+role_timers = false
+lobbyenabled = true
+map_pool = "LostParadiseMapPool"
+panic_bunker.min_account_age = 1440
+panic_bunker.min_overall_hours = 0
+
+[server]
+rules_file = "RulesLPP.txt"
+id = "LeLostParadise"
+
+[rules]
+time = 40.0
+
+[infolinks]
+discord = ""
+github = "https://github.com/mixed-soup/mixed-soup"
+website = ""
+wiki = "http://wiki.lost-paradise.space/"
+patreon = ""
+bug_report = ""
+appeal = ""
+
+[vote]
+restart_required_ratio = 0.85
+same_type_timeout = 300.0
+timerrestart = 30
+map_enabled = true
+preset_enabled = true
+restart_enabled = true
+
+[console]
+loginlocal = true
+
+[shuttle]
+auto_call_time = 0
+arrivals = false
+arrivals_planet = false
+emergency_early_launch_allowed = true
+
+[auth]
+mode = 0
+server = "https://auth.spacestation14.com/"
+
+[viewport]
+maximum_width = 26
+
+[netres]
+limit = 25.0
+
+[rest]
+crawlundertables = false
