@@ -244,4 +244,23 @@
     contents:
     - id: GasAnalyzer
     - id: trayScanner
+    - id: AccessConfigurator
+    - id: Omnitool
+    - id: WelderExperimental
+    - id: GeigerCounter
+    - id: MedicalPDA
+    - id: Multitool
+    - id: JawsOfLife
+    - id: PowerDrill
+    - id: WeaponTetherGunAdmin
+    - id: NetworkConfigurator
+    - id: RCDExperimental
+    - id: NodeScanner
+    - id: AnomalyScanner
+    - id: ForensicScanner
+    - id: PenCentcom
+    - id: RubberStampApproved
+    - id: RubberStampSyndicate
+    - id: RubberStampCentcom
+    - id: RubberStampDenied
   - type: Unremoveable
