@@ -214,7 +214,7 @@
     songName: кассета (The Promise of Snakes - The Angelic Process)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/ThePromiseOfSnakes.ogg
 
-- type: entityf
+- type: entity
   parent: BaseMusicTape
   id: MusicTape18
   name: кассета (Chasing The Dream - Cold Fist)
