@@ -8,7 +8,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _Sunrise/Objects/Devices/tapes.rsi
+    sprite: _Sunrise/tapes.rsi
 
 - type: entity
   parent: BaseMusicTape
@@ -17,7 +17,7 @@
   description:
   components:
   - type: Sprite
-    state: tape1
+    sprite: tape1
   - type: MusicTape
     songName: кассета (MI MAMI FUNK, Vol. 2 - DJ DYLANFK, RD12, DJ-JY12)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/mimiamifunk.ogg
@@ -29,7 +29,7 @@
   description:
   components:
   - type: Sprite
-    state: tape2
+    sprite: tape2
   - type: MusicTape
     songName: кассета (MATANÇA DISTORCIDA Slowed - Manlikefdot)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/dermoslowed.ogg
@@ -41,7 +41,7 @@
   description:
   components:
   - type: Sprite
-    state: tape3
+    sprite: tape3
   - type: MusicTape
     songName: кассета (лазить по стенам - zhanulka)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/LazitPoStenam.ogg
@@ -53,7 +53,7 @@
   description:
   components:
   - type: Sprite
-    state: tape4
+    sprite: tape4
   - type: MusicTape
     songName: кассета (1 мая - madk1d, CUPSIZE)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/1maya.ogg
@@ -65,7 +65,7 @@
   description:
   components:
   - type: Sprite
-    state: tape5
+    sprite: tape5
   - type: MusicTape
     songName: кассета (SETAM - -Prey, PLAYA SSK, GolzX)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/setam.ogg
@@ -77,7 +77,7 @@
   description:
   components:
   - type: Sprite
-    state: tape6
+    sprite: tape6
   - type: MusicTape
     songName: кассета (Bomber - Hardtekk)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/bomber.ogg
@@ -89,7 +89,7 @@
   description:
   components:
   - type: Sprite
-    state: tape7
+    sprite: tape7
   - type: MusicTape
     songName: кассета (Толпы - madk1d)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/tolpy.ogg
@@ -101,7 +101,7 @@
   description:
   components:
   - type: Sprite
-    state: tape8
+    sprite: tape8
   - type: MusicTape
     songName: кассета (Страшный сон 2 - Раковая Выхухоль)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/scaresleep.ogg
@@ -113,7 +113,7 @@
   description:
   components:
   - type: Sprite
-    state: tape9
+    sprite: tape9
   - type: MusicTape
     songName: кассета (expouse02 - Hardx, Dmitry.rx)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/expouse02.ogg
@@ -125,7 +125,7 @@
   description:
   components:
   - type: Sprite
-    state: tape10
+    sprite: tape10
   - type: MusicTape
     songName: кассета (byebye.wav - SXCREDMANE)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/byebye.ogg
@@ -137,7 +137,7 @@
   description:
   components:
   - type: Sprite
-    state: tape11
+    sprite: tape11
   - type: MusicTape
     songName: кассета (Лазить по стенам - brokendaddy?)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/LazitPoStenamRMX.ogg
@@ -149,7 +149,7 @@
   description:
   components:
   - type: Sprite
-    state: tape12
+    sprite: tape12
   - type: MusicTape
     songName: кассета (Портреты - влад пиво)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/Pictures.ogg
@@ -161,10 +161,10 @@
   description:
   components:
   - type: Sprite
-    state: tape13
+    sprite: tape13
   - type: MusicTape
     songName: кассета (СВО НАС СВЯЗАЛО - Неизвестный)
-    sound: /Audio/_Custom/TapePlayer/Tracks/svo.ogg
+    sound: /Audio/_Sunrise/TapePlayer/Tracks/svo.ogg
 
 - type: entity
   parent: BaseMusicTape
@@ -173,7 +173,7 @@
   description:
   components:
   - type: Sprite
-    state: tape14
+    sprite: tape14
   - type: MusicTape
     songName: кассета (pussypodium - akiaura, LONOWN)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/pussypodium.ogg
@@ -185,7 +185,7 @@
   description:
   components:
   - type: Sprite
-    state: tape15
+    sprite: tape15
   - type: MusicTape
     songName: кассета (Блядская натура - Lotor)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/blyadskayanatura.ogg
@@ -197,7 +197,7 @@
   description:
   components:
   - type: Sprite
-    state: tape15
+    sprite: tape15
   - type: MusicTape
     songName: кассета (Run for Your Life - Enforcer)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/RunForYourLife.ogg
@@ -209,19 +209,19 @@
   description:
   components:
   - type: Sprite
-    state: tape15
+    sprite: tape15
   - type: MusicTape
     songName: кассета (The Promise of Snakes - The Angelic Process)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/ThePromiseOfSnakes.ogg
 
-- type: entity
+- type: entityf
   parent: BaseMusicTape
   id: MusicTape18
   name: кассета (Chasing The Dream - Cold Fist)
   description:
   components:
   - type: Sprite
-    state: tape15
+    sprite: tape15
   - type: MusicTape
     songName: кассета (Chasing The Dream - Cold Fist)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/ChasingTheDream.ogg
@@ -233,7 +233,7 @@
   description:
   components:
   - type: Sprite
-    state: tape15
+    sprite: tape15
   - type: MusicTape
     songName: кассета (Cold Night - Cold Fist)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/ColdNight.ogg
@@ -245,7 +245,7 @@
   description:
   components:
   - type: Sprite
-    state: tape20
+    sprite: tape20
   - type: MusicTape
     songName: кассета (Abshir Aya Misra - basedsigmajihadifemb)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/AbshirAyaMisra.ogg
@@ -257,7 +257,7 @@
   description:
   components:
   - type: Sprite
-    state: tape21
+    sprite: tape21
   - type: MusicTape
     songName: кассета (That The Road is no Longer Prohibite - Abu)
     sound: /Audio/_Sunrise/TapePlayer/Tracks/ThatTheRoadIsNoLongerProhibited.ogg

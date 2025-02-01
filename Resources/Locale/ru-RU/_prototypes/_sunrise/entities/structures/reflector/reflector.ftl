@@ -1,2 +1,0 @@
-ent-Reflector = рефлектор
-    .desc = { "" }
