@@ -1,2 +1,0 @@
-ent-HitscanEffectTracer = { "" }
-    .desc = { "" }
