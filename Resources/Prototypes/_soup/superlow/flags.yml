@@ -65,7 +65,7 @@
     state: intersex
 
 - type: entity
-  id: FlagAce
+  id: FlagLesb
   parent: FlagBase
   name: lesbian flag
   components:
