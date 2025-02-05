@@ -1,0 +1,81 @@
+- type: entity
+  parent: CrateGeneric
+  id: CrateWood
+  name: деревянный ящик
+  description: Простой ящик из дерева.
+  components:
+  - type: Sprite
+    offset: 0, 0
+    sprite: _soup/wood_crate.rsi
+    layers:
+    - state: base
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: paper
+      sprite: Structures/Storage/Crates/labels.rsi
+      map: ["enum.PaperLabelVisuals.Layer"]
+      offset: "-0.03125,0.28125"
+  - type: Icon
+    sprite: _soup/wood_crate.rsi
+    state: base
+  - type: Damageable
+    damageModifierSet: Wood
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 15
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank1:
+            min: 1
+            max: 4
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Construction
+    graph: CrateWood
+    node: cratewood
+    containers:
+    - entity_storage
+
+- type: constructionGraph
+  id: CrateWood
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: cratewood
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 5
+
+    - node: cratewood
+      entity: CrateWood
+      edges:
+        - to: start
+          steps:
+            - tool: Prying
+              doAfter: 5
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 3
+            - !type:EmptyAllContainers
+            - !type:DeleteEntity
+
+- type: construction
+  name: деревянный ящик
+  id: CrateWood
+  graph: CrateWood
+  startNode: start
+  targetNode: cratewood
+  category: construction-category-storage
+  description: Простой ящик из дерева.
+  icon: { sprite: _soup/wood_crate.rsi, state: base }
+  objectType: Structure
