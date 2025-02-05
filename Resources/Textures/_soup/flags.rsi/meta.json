@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "goonstation",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "blank"
+    },
+    {
+      "name": "mlmvinc"
+    },
+    {
+      "name": "mlmachi"
+    },
+    {
+      "name": "ace"
+    },
+    {
+      "name": "aro"
+    },
+    {
+      "name": "bisexual"
+    },
+    {
+      "name": "demisexual"
+    },
+    {
+      "name": "genderqueer"
+    },
+    {
+      "name": "intersex"
+    },
+    {
+      "name": "lesb"
+    },
+    {
+      "name": "nb"
+    },
+    {
+      "name": "pan"
+    },
+    {
+      "name": "polysexual"
+    },
+    {
+      "name": "progressive"
+    },
+    {
+      "name": "rainbow"
+    },
+    {
+      "name": "trans"
+    }
+  ]
+}
