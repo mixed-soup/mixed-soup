@@ -1,0 +1,137 @@
+- type: entity
+  parent: BaseSign
+  id: FlagBase
+  description: Богатый выбор!
+  abstract: true
+  components:
+  - type: WallMount
+    arc: 360
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _soup/flags.rsi
+
+- type: entity
+  id: FlagAce
+  parent: FlagBase
+  name: asexual flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: ace
+
+- type: entity
+  id: FlagAro
+  parent: FlagBase
+  name: aromantic flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: aro
+
+- type: entity
+  id: FlagBisexual
+  parent: FlagBase
+  name: bisexual flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: bisexual
+
+- type: entity
+  id: FlagDemisexual
+  parent: FlagBase
+  name: demisexual flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: demisexual
+
+- type: entity
+  id: FlagGenderqueer
+  parent: FlagBase
+  name: genderqueer flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: genderqueer
+
+- type: entity
+  id: FlagIntersex
+  parent: FlagBase
+  name: intersex flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: intersex
+
+- type: entity
+  id: FlagAce
+  parent: FlagBase
+  name: lesbian flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: lesb
+
+- type: entity
+  id: FlagMlmachi
+  parent: FlagBase
+  name: mlmac flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: mlmachi
+
+- type: entity
+  id: FlagGay
+  parent: FlagBase
+  name: gay flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: mlmvinc
+
+- type: entity
+  id: Flagnonbinary
+  parent: FlagBase
+  name: non-binary flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: nb
+
+- type: entity
+  id: FlagPan
+  parent: FlagBase
+  name: pansexual flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: pan
+
+- type: entity
+  id: FlagPolysex
+  parent: FlagBase
+  name: polysexual flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: polysexual
+
+- type: entity
+  id: FlagProgressive
+  parent: FlagBase
+  name: progressive flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: progressive
+
+- type: entity
+  id: FlagTrans
+  parent: FlagBase
+  name: trans flag
+  components:
+  - type: Sprite
+    sprite: _soup/flags.rsi
+    state: trans
