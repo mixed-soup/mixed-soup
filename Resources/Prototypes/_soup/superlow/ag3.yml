@@ -1,0 +1,79 @@
+- type: entity
+  name: Боевая винтовка AG3
+  parent: [BaseItem, BaseGunWieldable]
+  id: WeaponRifleAg3
+  description: Современная полуавтоматическая боевая винтовка производства Almagest Weapons Fabrication. Редко встречаются в космических операциях из-за их скорострельностьи.
+  components:
+  - type: Sprite
+    sprite: _soup/ag3/big.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    sprite: _soup/ag3/tiny.rsi
+    size: Large
+    shape:
+    - 0,0,3,2
+  - type: Wieldable
+  - type: GunRequiresWield
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 3
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/m41_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/rifle_load.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/lmg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 2000
+  - type: Execution
+  - type: MeleeWeapon
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 9
+    bluntStaminaDamageFactor: 1
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 3
+  - type: DamageOtherOnHit
+    staminaCost: 9
